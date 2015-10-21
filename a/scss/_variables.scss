@@ -1,0 +1,41 @@
+//Colors
+$white:         #ffffff;
+$maroon:        #472d33;
+$maroon-dk:     #3f282d;
+$pink:          #BA4662;
+$pink-dk:       #AE3C58;
+
+$border-color:  #382428;
+$link-hover:    #A99FA1;
+// $link-hover:    $pink-dk;
+
+
+//Type Stacks
+$lato-stack:  'Lato', sans-serif;
+$vollkorn-stack: 'Vollkorn', serif;
+$muli-stack: 'Muli', sans-serif;
+
+//Grid
+$b:  16px;
+
+
+//Media Queries
+// $q-small: 300px;
+// $q-medium: 750px;
+// $q-large: 1000px;
+
+// Example of use:
+// Version 1
+// @media screen and (min-width: $q-small) {
+//   ... content...
+// }
+
+
+// Version 2
+// header {
+//   height: 20px;
+//
+//   @media screen and (min-width: $q-medium) {
+//     height: 50px;
+//   }
+// }

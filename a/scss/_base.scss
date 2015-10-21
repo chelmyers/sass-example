@@ -1,0 +1,124 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding:0;
+  color: $white;
+}
+
+
+a {
+  text-decoration: none;
+  color: $white;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+.alpha {
+  font-size: $b*3;
+}
+
+
+/*****************
+Header
+******************/
+
+header {
+  float: left;
+  background: $maroon-dk;
+  border-bottom: 2px solid $border-color;
+  padding: $b*1.5 0;
+  width: 100%;
+  font-family: $lato-stack;
+}
+
+
+/* Logo */
+.logo {
+  float: left;
+  text-align: left;
+  margin-left: 5%;
+  font-size: $b*1.75;
+}
+
+
+/* Navigation */
+nav {
+  float: right;
+  text-align: right;
+  margin-right: 2%;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-top: $b/2;
+
+    li{
+      display: inline-block;
+      padding: 0 $b/2;
+      text-transform: uppercase;
+      font-size: $b*0.75;
+      letter-spacing: 2px;
+    }
+  }
+
+  a {
+    padding: $b 10px;
+  }
+}
+
+
+
+
+/*****************
+Section
+******************/
+
+section {
+  background: $maroon;
+  height: 100%;
+  text-align: center;
+
+  h1 {
+    @extend .alpha;
+    padding-top: 17%;
+    font-family: $vollkorn-stack;
+  }
+
+  p {
+    width: 500px;
+    margin: -28px auto $b*2;
+    font-family: $muli-stack;
+    font-size: $b*1.125;
+    line-height: 1.35;
+  }
+
+}
+
+
+#submit {
+  height: 50px;
+  width: 220px;
+  background: $pink;
+  color: inherit;
+  font-family: $lato-stack;
+  font-size: $b;
+  letter-spacing: 3px;
+  border: none;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+  @include border-radius(5px);
+
+  &:hover {
+    background: $pink-dk;
+  }
+}
+
+
+input:focus {
+  outline: none;
+  border: 2px solid $pink;
+  box-shadow: 0 0 10px $pink;
+}

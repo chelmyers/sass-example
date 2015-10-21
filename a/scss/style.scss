@@ -1,0 +1,26 @@
+
+//Reset
+@import "normalize.scss";
+
+//Config
+@import "mixins.scss";
+@import "variables.scss";
+
+
+//Styles
+@import "base.scss";
+
+
+// Other Sass Breakdowns
+
+//// By Module
+// @import "header.scss";
+// @import "footer.scss";
+// @import "layout-a.scss";
+
+
+
+////By Media Query
+// @media screen and (min-width: 700px) {
+//   @import "700up.scss";
+// }
